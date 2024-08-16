@@ -3,9 +3,27 @@ title = 'BU RISE'
 description = "Here is my project for the BU RISE 2024 summer program, which culminated in an abstract and a poster."
 draft = false
 +++
-Research project for the BU RISE 2024 summer program, culminated in an abstract and a poster. 
+### Research project for the BU RISE 2024 summer program that culminated in an abstract and a poster. 
 
-### **<p style="text-align: center;">Temperature Prediction in Monolithic 3D Using Machine Learning Based Models</p>**
+**Some general comments:**
+- The dataset I worked with was fairly small ~360 samples. 
+- I should have selected which temperature readings more randomly, 
+  - Currently, the model takes in the same sensor nodes for each sample in training
+  - In the future, the data should be modified so that for each sample the model gets different sensor nodes
+- For predicting new workloads, I think the model suffers a lot from overfitting, so it does much worse. 
+- In addition, I was having replicability issues with the no layer model and predicting layer 1 with decent accuracy, so I had to mess around with the max depth.
+  - With the no layer model, without chaning any hyperparameters, I was able to get a similar result to the one shown on the poster. 
+    - However, once I retrained the model I couldn't get it again. 
+  - Once I changed the max depth to 50 however, I was able to replicate the result. 
+    - But, I didn't get to retraining the 50 max depth model, so I'm not sure how consistent it will be. 
+
+
+
+   
+<br/><br/>
+   
+
+#### **<p style="text-align: center;">Temperature Prediction in Monolithic 3D Using Machine Learning Based Models</p>**
 
 <p style="text-align: center;">Alan Zhou<sup>1,2</sup>; Amin Khodaverdian<sup>2</sup>; Ayse K. Coskun<sup>2</sup> </p>
 

@@ -1,0 +1,51 @@
+title = "Alan Zhou"
+baseURL = "https://ZhouA25.github.io"
+languageCode = "en-us"
+theme = "uni"
+resourceDir = "../resources"
+publishDir = "docs"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+[params]
+    disabled_logo = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+[[menu.main]]
+    name       = "Home"
+    identifier = "menu.home"
+    url        = "/"
+    weight     = 1
+
+[[menu.main]]
+    name       = "Projects"
+    identifier = "menu.projects"
+    url        = ""
+    weight     = 2
+
+[[menu.main]]
+    name       = "BU RISE"
+    identifier = "menu.BURISE"
+    url        = "/BURISE"
+    weight     = 1
+    parent = "menu.projects"
+
+[[menu.main]]
+    name       = "Misc"
+    identifier = "menu.misc_research"
+    url        = "/misc_research"
+    weight     = 2
+    parent = "menu.projects"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alan Zhou</title>
-    <link>https://ZhouA25.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Alan Zhou</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ZhouA25.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alan Zhou</title>
-      <link>https://ZhouA25.github.io/home/</link>
+      <link>http://localhost:1313/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ZhouA25.github.io/home/</guid>
+      <guid>http://localhost:1313/home/</guid>
       <description>Hi, I&amp;rsquo;m Alan Zhou I&amp;rsquo;m a rising senior in high school. My interests mainly lie in physics &amp;amp; ECE.&#xA;In particular, I&amp;rsquo;m interested in computer systems/architectures,&#xA;and the potential applications of physics in improving efficiency and creating new types of computers.&#xA;This is a website to store some projects/research/stuff that I have worked on.&#xA;Nothing here will be too interesting.&#xA;I don&amp;rsquo;t actively use any social media, but you can find my github here.</description>
     </item>
     <item>
       <title>BU RISE</title>
-      <link>https://ZhouA25.github.io/burise/</link>
+      <link>http://localhost:1313/burise/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ZhouA25.github.io/burise/</guid>
+      <guid>http://localhost:1313/burise/</guid>
       <description>Abstract: Temperature Prediction in Monolithic 3D Using Machine Learning Based Models&#xA;Alan Zhou1,2; Amin Khodaverdian2; Ayse K. Coskun2 1Episcopal Academy, 1785 Bishop White Drive, Newtown Square, PA 19073; 2Department of Electrical &amp; Computer Engineering, Boston University, 8 St. Mary’s Street, Boston, MA 02215&#xA;High chip temperatures have been a key issue for decades. In conventional chip designs, high temperatures negatively impact performance and can degrade the lifetime of processors [1]. Monolithic 3D(M3D) integration is an emerging technology enabling the stacking of multiple transistor, or active, layers(we also refer to these layers as tiers) within one Integrated Circuit(IC).</description>
     </item>
     <item>
       <title>Miscellaneous Work</title>
-      <link>https://ZhouA25.github.io/misc_research/</link>
+      <link>http://localhost:1313/misc_research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ZhouA25.github.io/misc_research/</guid>
+      <guid>http://localhost:1313/misc_research/</guid>
       <description>2023: Group paper published in Antibiotics, Volume 12, Issue 10, Antimicrobial Resistance in the WHO African Region: A Systematic Literature Review 2016–2020</description>
     </item>
   </channel>

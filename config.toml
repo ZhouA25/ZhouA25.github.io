@@ -22,7 +22,7 @@ enableRobotsTXT = true
 [[menu.main]]
     name       = "Home"
     identifier = "menu.home"
-    url        = "/home"
+    url        = "/Home"
     weight     = 1
 
 [[menu.main]]

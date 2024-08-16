@@ -1,5 +1,5 @@
-- id: home
-  translation: "home"
+- id: Home
+  translation: "Home"
 
 - id: templateBy
   translation: "Template by"

@@ -14,7 +14,7 @@
 
 
 
-<meta name="description" content="">
+<meta name="description" content="Here is my project for the BU RISE 2024 summer program, which culminated in an abstract and a poster.">
 
 <meta name="generator" content="Hugo 0.128.2">
 
@@ -34,7 +34,7 @@
 
 
 
-<link href="/css/custom.css?1723769870" rel="stylesheet">
+<link href="/css/custom.css?1723818112" rel="stylesheet">
 
 
 
@@ -69,7 +69,7 @@
 
 <meta name="twitter:title" content="BU RISE">
 
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content="Here is my project for the BU RISE 2024 summer program, which culminated in an abstract and a poster.">
 
 
     
@@ -116,7 +116,7 @@
 
                   
                   <li class="dropdown ">
-                    <a href="/">Home</a>
+                    <a href="/home">home</a>
                   </li>
                   
                   
@@ -189,12 +189,46 @@
                     <div class="col-md-12">
 
                         <div>
-                          <h2 id="abstract"><strong>Abstract:</strong></h2>
-<h3 id="p-styletext-align-centertemperature-prediction-in-monolithic-3d-using-machine-learning-based-modelsp"><p style="text-align: center;">Temperature Prediction in Monolithic 3D Using Machine Learning Based Models</p></h3>
+                          <h3 id="research-project-for-the-bu-rise-2024-summer-program-that-culminated-in-an-abstract-and-a-poster">Research project for the BU RISE 2024 summer program that culminated in an abstract and a poster.</h3>
+<p><strong>Some general comments:</strong></p>
+<ul>
+<li>The dataset I worked with was fairly small ~360 samples.</li>
+<li>I should have selected which temperature readings more randomly,
+<ul>
+<li>Currently, the model takes in the same sensor nodes for each sample in training</li>
+<li>In the future, the data should be modified so that for each sample the model gets different sensor nodes</li>
+</ul>
+</li>
+<li>For predicting new workloads, I think the model suffers a lot from overfitting, so it does much worse.</li>
+<li>In addition, I was having replicability issues with the no layer model and predicting layer 1 with decent accuracy, so I had to mess around with the max depth.
+<ul>
+<li>With the no layer model, without chaning any hyperparameters, I was able to get a similar result to the one shown on the poster.
+<ul>
+<li>However, once I retrained the model I couldn&rsquo;t get it again.</li>
+</ul>
+</li>
+<li>Once I changed the max depth to 50 however, I was able to replicate the result.
+<ul>
+<li>But, I didn&rsquo;t get to retraining the 50 max depth model, so I&rsquo;m not sure how consistent it will be.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><br/><br/></p>
+<h4 id="p-styletext-align-centertemperature-prediction-in-monolithic-3d-using-machine-learning-based-modelsp"><strong><p style="text-align: center;">Temperature Prediction in Monolithic 3D Using Machine Learning Based Models</p></strong></h4>
 <p style="text-align: center;">Alan Zhou<sup>1,2</sup>; Amin Khodaverdian<sup>2</sup>; Ayse K. Coskun<sup>2</sup> </p>
 <p style="text-align: center;"><sup>1</sup>Episcopal Academy, 1785 Bishop White Drive, Newtown Square, PA 19073; <sup>2</sup>Department of Electrical & Computer Engineering, Boston University, 8 St. Mary’s Street, Boston, MA 02215</p>
 <p>      High chip temperatures have been a key issue for decades. In conventional chip designs, high temperatures negatively impact performance and can degrade the lifetime of processors [1]. Monolithic 3D(M3D) integration is an emerging technology enabling the stacking of multiple transistor, or active, layers(we also refer to these layers as tiers) within one Integrated Circuit(IC). M3D serves as an alternative to traditional transistor scaling by providing vertical interconnects between transistor layers, allowing for dense ICs and high bandwidth communication between layers [2]. As a result of various factors, M3D systems face additional thermal issues compared to traditional designs, making thermal management a critical issue [3]. Runtime thermal management policies provide one way to alleviate thermal issues. However, current policies rely on temperature readings from on-chip thermal sensors, which may not provide accurate measurements for maximum temperatures on the chip, a consequence of several limitations of these sensors [1]. We expanded upon previous work [1] to develop a nonlinear regression model, trained and evaluated on data generated from simulations, to predict the on-chip temperatures for active layers in a two-tiered M3D processor, The goal is to predict an output from PACT, a compact thermal simulator, which is a full temperature node grid for each active layer, in our case a 100x100 sized node grid. Our proposed model is a Decision Tree Multi Regression model from the Scikit Learn python library with default hyperparameters. As input, the proposed model takes in on-chip temperature sensor readings; the location of the sensor inputs; and the total power usage of the layer divided by the size of the temperature grid. The proposed model outputs an array of temperature values which correspond onto a 100x100 temperature grid. Giving the model 20 temperature readings, we achieved a maximum R^2 score of approximately 0.871.</p>
-<p><img src="/images/Zhou,Alan.Poster.png" alt="Poster"></p>
+<p><strong>References:</strong></p>
+<p>[1] Knox, C, Yuan, Z, &amp; Coskun, AK. &ldquo;Machine Learning and Simulation Based Temperature Prediction on High-Performance Processors.&rdquo; Proceedings of the ASME 2022 International Technical Conference and Exhibition on Packaging and Integration of Electronic and Photonic Microsystems. ASME 2022 International Technical Conference and Exhibition on Packaging and Integration of Electronic and Photonic Microsystems. Garden Grove, California, USA. October 25–27, 2022. V001T05A001. pp 1.<br>
+[2] K. Dhananjay, P. Shukla, V. F. Pavlidis, A. Coskun and E. Salman, &ldquo;Monolithic 3D Integrated Circuits: Recent Trends and Future Prospects,&rdquo; in IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 68, no. 3, pp. 837-843, March 2021, doi: 10.1109/TCSII.2021.3051250. pp 1<br>
+[3]. P. Shukla, A. K. Coskun, V. F. Pavlidis, and E. Salman, “An overview of thermal challenges and opportunities for monolithic 3D ICs,” in Proceedings of the 2019 on Great Lakes Symposium on VLSI, 2019, pp. 439–444. pp 2.</p>
+<p><img
+    src="/images/Zhou,Alan.Poster.png" alt="poster"
+    
+     style="width: 100%; max-width: 100%;"
+    /></p>
 
                         </div>
 

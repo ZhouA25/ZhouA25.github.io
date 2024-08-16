@@ -19,7 +19,7 @@ draft = false
 [3]. P. Shukla, A. K. Coskun, V. F. Pavlidis, and E. Salman, “An overview of thermal challenges and opportunities for monolithic 3D ICs,” in Proceedings of the 2019 on Great Lakes Symposium on VLSI, 2019, pp. 439–444. pp 2.
 
 
-
+## **Poster:**
 
 ![poster](/images/Zhou,Alan.Poster.png "100%")
 

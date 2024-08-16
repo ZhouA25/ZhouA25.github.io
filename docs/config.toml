@@ -34,7 +34,7 @@ enableRobotsTXT = true
 [[menu.main]]
     name       = "BU RISE"
     identifier = "menu.BURISE"
-    url        = "/BURISE"
+    url        = "/burise"
     weight     = 1
     parent = "menu.projects"
 

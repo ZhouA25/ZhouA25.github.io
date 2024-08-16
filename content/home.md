@@ -1,5 +1,5 @@
 +++
-title = 'Alan Zhou'
+title = "Home"
 draft = false
 +++
 

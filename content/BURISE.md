@@ -1,10 +1,11 @@
 +++
 title = 'BU RISE'
+description = "Here is my project for the BU RISE 2024 summer program, which culminated in an abstract and a poster."
 draft = false
 +++
-## **Abstract:**
+Research project for the BU RISE 2024 summer program, culminated in an abstract and a poster. 
 
-### <p style="text-align: center;">Temperature Prediction in Monolithic 3D Using Machine Learning Based Models</p>
+### **<p style="text-align: center;">Temperature Prediction in Monolithic 3D Using Machine Learning Based Models</p>**
 
 <p style="text-align: center;">Alan Zhou<sup>1,2</sup>; Amin Khodaverdian<sup>2</sup>; Ayse K. Coskun<sup>2</sup> </p>
 
@@ -18,8 +19,6 @@ draft = false
 [2] K. Dhananjay, P. Shukla, V. F. Pavlidis, A. Coskun and E. Salman, "Monolithic 3D Integrated Circuits: Recent Trends and Future Prospects," in IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 68, no. 3, pp. 837-843, March 2021, doi: 10.1109/TCSII.2021.3051250. pp 1   
 [3]. P. Shukla, A. K. Coskun, V. F. Pavlidis, and E. Salman, “An overview of thermal challenges and opportunities for monolithic 3D ICs,” in Proceedings of the 2019 on Great Lakes Symposium on VLSI, 2019, pp. 439–444. pp 2.
 
-
-## **Poster:**
 
 ![poster](/images/Zhou,Alan.Poster.png "100%")
 

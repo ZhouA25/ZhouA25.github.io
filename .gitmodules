@@ -1,0 +1,3 @@
+[submodule "dist"]
+    path = themes/hugo-universal-theme
+    url = https://github.com/prabhatsharma/hugo-universal-theme.git

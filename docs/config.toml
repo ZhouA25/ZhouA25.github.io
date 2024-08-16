@@ -20,7 +20,7 @@ enableRobotsTXT = true
 
 [menu]
 [[menu.main]]
-    name       = "Home"
+    name       = "home"
     identifier = "menu.home"
     url        = "/"
     weight     = 1

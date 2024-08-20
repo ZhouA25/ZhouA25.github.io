@@ -13,7 +13,7 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
 googleAnalytics = ""
 enableRobotsTXT = true
 [params]
-    style = "default"
+    style = "violet"
     disabled_logo = true
 
 [markup]

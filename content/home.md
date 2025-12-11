@@ -5,7 +5,7 @@ draft = false
 
 ## **Hi, I'm Alan Zhou**
 
-I'm a rising senior in high school. My interests mainly lie in physics & ECE.  
+I'm a freshman at Columbia University. My interests mainly lie in physics & ECE.  
 In particular, I'm interested in computer systems/architectures,  
 and the potential applications of physics in improving efficiency and creating new types of computers. 
 
